@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phuler | Luxury Floral Design & Delivery</title>
+  <meta name="description" content="Discover premium, farm-fresh luxury flowers delivered with love. Handpicked seasonal arrangements for weddings, birthdays, and special occasions.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="#"><h2>Phuler.</h2></a>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#shop">Our Shop</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-icons">
+        <i class="fa-solid fa-magnifying-glass hover-glow"></i>
+        <i class="fa-regular fa-user hover-glow"></i>
+        <div style="position:relative; display:inline-block; cursor:pointer;" id="cart-toggle">
+          <i class="fa-solid fa-bag-shopping hover-glow" id="cart-icon"></i>
+          <span class="cart-badge" id="cart-badge">0</span>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 1. Hero Section -->
+  <header class="hero" id="hero" style="background-image: url('file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/hero_bg_1776013789945.png');">
+    <div class="hero-overlay"></div>
+    
+    <!-- Floating particles -->
+    <div class="floating-particle p-1"><i class="fa-solid fa-leaf"></i></div>
+    <div class="floating-particle p-2"><i class="fa-solid fa-seedling"></i></div>
+    <div class="floating-particle p-3"><i class="fa-solid fa-leaf"></i></div>
+
+    <div class="hero-content fade-up visible floating-element">
+      <span class="hero-subtitle">Fresh Flowers Delivered With Love</span>
+      <h1 class="hero-title">
+        <span class="typewriter-text" id="typewriter"></span>
+      </h1>
+      <p class="hero-description">Experience the profound beauty of handpicked, farm-direct flowers. We specialize in luxury floral artistry designed to elevate every momentous occasion with grace and elegance.</p>
+      <div class="hero-buttons">
+        <a href="#shop" class="btn btn-primary pulse-hover">Shop Now</a>
+        <a href="#collections" class="btn btn-glass lift-hover">Explore Collection</a>
+      </div>
+    </div>
+    
+    <a href="#collections" class="scroll-indicator">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </header>
+
+  <!-- 2. Featured Collections -->
+  <section class="featured-collections" id="collections">
+    <div class="container">
+      <div class="section-title fade-up">
+        <span>Hand-Curated Selection</span>
+        <h2>Explore Our Collections</h2>
+        <p class="section-description">Whether you are walking down the aisle, celebrating an anniversary, or simply looking to brighten someone's day, our exquisite collections offer breathtaking artistry.</p>
+      </div>
+      
+      <div class="grid-collections">
+        <div class="collection-card fade-up">
+          <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/rose_bouquet_1776013804048.png" alt="Luxury Roses">
+          <div class="collection-card-content">
+            <h3>Luxury Roses</h3>
+            <p>Opulent, velvety roses meticulously sourced directly from the world's most prestigious growers.</p>
+            <span class="collection-btn">Shop Collection <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="collection-card fade-up" style="transition-delay: 0.1s;">
+          <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/wedding_bouquet_1776013819853.png" alt="Wedding Bouquets">
+          <div class="collection-card-content">
+            <h3>Wedding Bouquets</h3>
+            <p>Ethereal designs featuring delicate peonies and hydrangeas, crafted specifically for your perfect day.</p>
+            <span class="collection-btn">Shop Collection <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="collection-card fade-up" style="transition-delay: 0.2s;">
+          <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/hero_bg_1776013789945.png" alt="Seasonal Blooms">
+          <div class="collection-card-content">
+            <h3>Seasonal Blooms</h3>
+            <p>Capture the essence of the current season with arrangements bursting with vibrant, timely color.</p>
+            <span class="collection-btn">Shop Collection <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="collection-card fade-up" style="transition-delay: 0.3s;">
+          <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/rose_bouquet_1776013804048.png" alt="Signature Arrangements">
+          <div class="collection-card-content">
+            <h3>Signature Styles</h3>
+            <p>Exclusively designed artistic installations and structural centerpieces for contemporary spaces.</p>
+            <span class="collection-btn">Shop Collection <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. About Brand -->
+  <section class="about-brand" id="about">
+    <div class="container about-grid">
+      <div class="about-image fade-up">
+        <div class="about-shape"></div>
+        <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/hero_bg_1776013789945.png" alt="Our Floral Design Process" class="parallax-img">
+      </div>
+      <div class="about-content fade-up" style="transition-delay: 0.2s;">
+        <div class="section-title" style="text-align: left; margin-bottom: 1rem;">
+          <span>Our Story & Philosophy</span>
+          <h2>A Passion for Petals, People, and Perfection</h2>
+        </div>
+        <p>Founded over a decade ago out of a lifelong love for botany, Phuler began as a modest studio dedicated to high-end floral design.</p>
+
+        <div class="about-stats">
+          <div class="stat">
+            <h4>10+</h4>
+            <span>Years of Excellence</span>
+          </div>
+          <div class="stat">
+            <h4>5k+</h4>
+            <span>Happy Customers</span>
+          </div>
+          <div class="stat">
+            <h4>100%</h4>
+            <span>Farm Fresh</span>
+          </div>
+        </div>
+        <a href="#" class="btn btn-secondary lift-hover" style="margin-top: 1.5rem;">Read Our Full Story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax Banner -->
+  <div class="parallax-banner" style="background-image: url('file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/wedding_bouquet_1776013819853.png');">
+    <div class="parallax-overlay"></div>
+    <div class="banner-content fade-up">
+      <i class="fa-solid fa-seedling" style="font-size: 3rem; color: var(--color-white); margin-bottom: 1rem;"></i>
+      <h2>Bringing Nature's Luxury Into Your Home</h2>
+      <p>Transform any space into an elegant sanctuary.</p>
+    </div>
+  </div>
+
+  <!-- 4. Best Sellers -->
+  <section class="best-sellers" id="shop">
+    <div class="container">
+      <div class="section-title fade-up">
+        <span>Trending Now</span>
+        <h2>Best Sellers</h2>
+        <p class="section-description">Discover the breathtaking bouquets our community loves most. Masterpieces that guarantee a smile.</p>
+      </div>
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card fade-up">
+          <div class="product-img-wrap">
+            <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/rose_bouquet_1776013804048.png" alt="Crimson Love">
+            <div class="add-to-cart-hover" style="gap: 10px; display: flex;">
+              <button class="btn btn-primary add-cart-btn" style="flex:1; padding: 1rem;" data-name="Crimson Love Roses" data-price="89.00" data-img="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/rose_bouquet_1776013804048.png"><i class="fa-solid fa-cart-shopping"></i> Add</button>
+              <button class="btn btn-secondary buy-now-btn" style="flex:1; padding: 1rem; background:var(--color-white);" data-name="Crimson Love Roses" data-price="89.00" data-img="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/rose_bouquet_1776013804048.png">Buy Now</button>
+            </div>
+            <span class="product-badge">Top Rated</span>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <span>(128 reviews)</span>
+            </div>
+            <h4>Crimson Love Roses</h4>
+            <p class="product-excerpt">A lush arrangement of premium deep red roses.</p>
+            <span class="product-price">$89.00</span>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card fade-up" style="transition-delay: 0.1s;">
+          <div class="product-img-wrap">
+            <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/wedding_bouquet_1776013819853.png" alt="Pure Peony">
+            <div class="add-to-cart-hover" style="gap: 10px; display: flex;">
+              <button class="btn btn-primary add-cart-btn" style="flex:1; padding: 1rem;" data-name="Pure Peony Bouquet" data-price="120.00" data-img="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/wedding_bouquet_1776013819853.png"><i class="fa-solid fa-cart-shopping"></i> Add</button>
+              <button class="btn btn-secondary buy-now-btn" style="flex:1; padding: 1rem; background:var(--color-white);" data-name="Pure Peony Bouquet" data-price="120.00" data-img="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/wedding_bouquet_1776013819853.png">Buy Now</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+              <span>(84 reviews)</span>
+            </div>
+            <h4>Pure Peony Bouquet</h4>
+            <p class="product-excerpt">Soft blush and pristine white peonies wrapped in fine silk.</p>
+            <span class="product-price">$120.00</span>
+          </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card fade-up" style="transition-delay: 0.2s;">
+          <div class="product-img-wrap">
+            <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/hero_bg_1776013789945.png" alt="Blush Symphony" style="object-position: left;">
+            <div class="add-to-cart-hover" style="gap: 10px; display: flex;">
+               <button class="btn btn-primary add-cart-btn" style="flex:1; padding: 1rem;" data-name="Blush Symphony" data-price="75.00" data-img="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/hero_bg_1776013789945.png"><i class="fa-solid fa-cart-shopping"></i> Add</button>
+               <button class="btn btn-secondary buy-now-btn" style="flex:1; padding: 1rem; background:var(--color-white);" data-name="Blush Symphony" data-price="75.00" data-img="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/hero_bg_1776013789945.png">Buy Now</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <span>(209 reviews)</span>
+            </div>
+            <h4>Blush Symphony</h4>
+            <p class="product-excerpt">An artistic melody of seasonal blush and cream florals.</p>
+            <span class="product-price">$75.00</span>
+          </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="product-card fade-up" style="transition-delay: 0.3s;">
+          <div class="product-img-wrap">
+            <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/rose_bouquet_1776013804048.png" alt="Majestic Pink">
+            <div class="add-to-cart-hover" style="gap: 10px; display: flex;">
+              <button class="btn btn-primary add-cart-btn" style="flex:1; padding: 1rem;" data-name="Majestic Pink Array" data-price="95.00" data-img="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/rose_bouquet_1776013804048.png"><i class="fa-solid fa-cart-shopping"></i> Add</button>
+              <button class="btn btn-secondary buy-now-btn" style="flex:1; padding: 1rem; background:var(--color-white);" data-name="Majestic Pink Array" data-price="95.00" data-img="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/rose_bouquet_1776013804048.png">Buy Now</button>
+            </div>
+            <span class="product-badge new">New</span>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+              <span>(45 reviews)</span>
+            </div>
+            <h4>Majestic Pink Array</h4>
+            <p class="product-excerpt">Strikingly vivid fuchsia roses mixed with dark foliage.</p>
+            <span class="product-price">$95.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Why Choose Us -->
+  <section class="why-choose-us" id="services">
+    <div class="container">
+      <div class="section-title fade-up">
+        <span>Our Promise to You</span>
+        <h2>Why Choose Phuler</h2>
+        <p class="section-description">We go above and beyond to ensure every stem is perfect and every delivery is flawless.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card fade-up">
+          <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <h4>Rapid Delivery in 24h</h4>
+          <p>We guarantee swift, reliable, and climate-controlled delivery straight to their doorstep, ensuring flowers arrive fully hydrated and vibrant. Next-day tracking included.</p>
+        </div>
+        <div class="feature-card fade-up" style="transition-delay: 0.1s;">
+          <div class="feature-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h4>Freshly Handpicked</h4>
+          <p>Every single bloom is sourced daily from the finest local and international sustainable farms. We support eco-friendly agriculture and guarantee a longer vase life.</p>
+        </div>
+        <div class="feature-card fade-up" style="transition-delay: 0.2s;">
+          <div class="feature-icon"><i class="fa-solid fa-gift"></i></div>
+          <h4>Premium Packaging</h4>
+          <p>Our gorgeous presentation enhances the unboxing experience. Featuring heavy frosted paper, satin ribbons, and custom wax seals, our packaging screams luxury.</p>
+        </div>
+        <div class="feature-card fade-up" style="transition-delay: 0.3s;">
+          <div class="feature-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h4>Custom Design Studio</h4>
+          <p>Consult with our master florists to create bespoke pieces. Bring us your vision, and we will translate it into a stunning personalized bouquet perfectly suited for the occasion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-title fade-up">
+        <span>Client Love</span>
+        <h2>What They Say About Us</h2>
+      </div>
+      <div class="testimonial-slider fade-up" id="testimonial-slider">
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Absolutely stunning flowers! The packaging felt incredibly premium with real wax seals and thick ribbon. The roses lasted beautifully for nearly two weeks on my dining table. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <img src="https://ui-avatars.com/api/?name=Sarah+J&background=random" alt="Sarah J.">
+            <div>
+              <h5>Sarah Jenkins</h5>
+              <span class="testimonial-role">Verified Buyer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"I ordered a bespoke wedding bouquet and it was beyond my wildest expectations. The florist listened to every tiny detail I mentioned, creating something truly magical and deeply personal for my big day."</p>
+          <div class="testimonial-author">
+            <img src="https://ui-avatars.com/api/?name=Emily+R&background=random" alt="Emily R.">
+            <div>
+              <h5>Emily Richards</h5>
+              <span class="testimonial-role">Bride</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p class="testimonial-text">"Fast delivery and the arrangement looked exactly like the picture online - which is so rare! A very reliable luxury service that I will definitely use again for our corporate events."</p>
+          <div class="testimonial-author">
+            <img src="https://ui-avatars.com/api/?name=Michael+T&background=random" alt="Michael T.">
+            <div>
+              <h5>Michael Torres</h5>
+              <span class="testimonial-role">Event Planner</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"The Customer service team was fantastic in helping me choose the right seasonal mix for my mother's birthday. She was moved to tears by the vibrancy of the hydrangeas. Thank you Phuler!"</p>
+          <div class="testimonial-author">
+            <img src="https://ui-avatars.com/api/?name=James+W&background=random" alt="James W.">
+            <div>
+              <h5>James Worthington</h5>
+              <span class="testimonial-role">Verified Buyer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Gift Occasions -->
+  <section class="gift-occasions">
+    <div class="container">
+      <div class="section-title fade-up">
+        <span>Shop by Event</span>
+        <h2>Perfect Gifts For Precious Moments</h2>
+        <p class="section-description">We have tailored categorizations to help you seamlessly find the sentiment you are looking to express.</p>
+      </div>
+      <div class="occasions-grid">
+        <a href="#" class="occasion-card fade-up">
+          <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/rose_bouquet_1776013804048.png" alt="Anniversary">
+          <div class="occasion-content">
+            <h3>Anniversary</h3>
+            <p>Celebrate love and milestones.</p>
+            <span class="explore-btn">Explore</span>
+          </div>
+        </a>
+        <a href="#" class="occasion-card fade-up" style="transition-delay: 0.1s;">
+          <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/wedding_bouquet_1776013819853.png" alt="Birthday">
+          <div class="occasion-content">
+            <h3>Birthday</h3>
+            <p>Vibrant colors for joyous days.</p>
+            <span class="explore-btn">Explore</span>
+          </div>
+        </a>
+        <a href="#" class="occasion-card fade-up" style="transition-delay: 0.2s;">
+          <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/hero_bg_1776013789945.png" alt="Wedding">
+          <div class="occasion-content">
+            <h3>Wedding</h3>
+            <p>Pure elegance for 'I Do'.</p>
+            <span class="explore-btn">Explore</span>
+          </div>
+        </a>
+        <a href="#" class="occasion-card fade-up" style="transition-delay: 0.3s;">
+          <img src="file:///C:/Users/milad/.gemini/antigravity/brain/21f18186-a4aa-4383-9fbc-7185f6e382ed/rose_bouquet_1776013804048.png" alt="Valentine's Day">
+          <div class="occasion-content">
+            <h3>Romance</h3>
+            <p>Passionate blooms to confess.</p>
+            <span class="explore-btn">Explore</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Newsletter Section -->
+  <section class="newsletter fade-up">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2>Join The Phuler Club</h2>
+        <p>Subscribe to our newsletter for exclusive luxury floral insights, seasonal care guides, private sale events, and receive a special <strong>15% discount on your first order.</strong> Elevate your inbox.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for joining the Phuler Club! Please check your inbox.');">
+          <input type="email" placeholder="Enter your email address" required>
+          <button type="submit" class="btn btn-primary pulse-hover">Subscribe Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Contact / Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand fade-up">
+          <h2>Phuler.</h2>
+          <p>Elevating everyday moments through the artistry of fine floral design. Cultivating joy and delivering happiness directly to your loved ones.</p>
+          <div class="footer-socials">
+            <a href="#" class="hover-glow"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="hover-glow"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="hover-glow"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#" class="hover-glow"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-links fade-up" style="transition-delay: 0.1s;">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul>
+            <li><a href="#shop">Shop Collections</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#">Floral Subscriptions</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">FAQ & Help</a></li>
+          </ul>
+        </div>
+        <div class="footer-links fade-up" style="transition-delay: 0.2s;">
+          <h4 class="footer-title">Our Policies</h4>
+          <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Refund & Returns</a></li>
+            <li><a href="#">Care Guide</a></li>
+            <li><a href="#">Delivery Information</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact fade-up" style="transition-delay: 0.3s;">
+          <h4 class="footer-title">Contact Us</h4>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> 123 Floral Avenue, New York, NY 10012</li>
+            <li><i class="fa-solid fa-phone"></i> +1 (800) 123-4567</li>
+            <li><i class="fa-regular fa-envelope"></i> hello@phuler.shop</li>
+            <li><i class="fa-regular fa-clock"></i> Mon-Sat: 9AM - 7PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom fade-up" style="transition-delay: 0.4s;">
+        <p>&copy; 2026 Phuler Premium Flowers. Designed with Passion. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CART MODAL -->
+  <div class="modal-overlay" id="cart-overlay"></div>
+  <div class="cart-modal" id="cart-modal">
+    <div class="cart-header">
+      <h3>Your Shopping Cart</h3>
+      <button id="close-cart"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="cart-items" id="cart-items-container">
+      <!-- Dynamically filled by JS -->
+      <p class="empty-cart-msg">Your cart is currently empty.</p>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Cart Total:</span>
+        <span id="cart-total-price">$0.00</span>
+      </div>
+      <button class="btn btn-primary" id="checkout-btn" style="width: 100%; border-radius: 8px;">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <!-- CHECKOUT SUCCESS MODAL -->
+  <div class="modal-overlay" id="success-overlay"></div>
+  <div class="success-modal" id="success-modal">
+    <i class="fa-solid fa-circle-check"></i>
+    <h3>Order Placed Successfully!</h3>
+    <p>Thank you for choosing Phuler. Your elegant arrangement is being prepared with love and care.</p>
+    <button class="btn btn-primary" id="close-success" style="margin-top: 2rem; border-radius: 8px;">Continue Shopping</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
